@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/OptionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".TrainingList">
+
+
+    <TextView
+        android:id="@+id/trainingTV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CDCDCD"
+        android:text="@string/training1"
+        android:padding="6dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/trainingTV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CDCDCD"
+        android:text="@string/training2"
+        android:padding="6dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/trainingTV3"
+        android:layout_width="match_parent"
+        android:padding="6dp"
+        android:layout_height="wrap_content"
+        android:background="#CDCDCD"
+
+        android:text="@string/training3"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/trainingTV4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="#CDCDCD"
+        android:text="@string/training4"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>
