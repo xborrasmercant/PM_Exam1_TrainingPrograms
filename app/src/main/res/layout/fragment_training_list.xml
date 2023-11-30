@@ -9,44 +9,43 @@
     tools:context=".TrainingList">
 
 
-    <TextView
-        android:id="@+id/trainingTV1"
+    <Button
+        android:id="@+id/trainingButton1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#CDCDCD"
+        android:padding="6dp"
         android:text="@string/training1"
-        android:padding="6dp"
         android:textAlignment="center"
         android:textSize="18sp" />
 
 
-    <TextView
-        android:id="@+id/trainingTV2"
+    <Button
+        android:id="@+id/trainingButton2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#CDCDCD"
+        android:padding="6dp"
         android:text="@string/training2"
-        android:padding="6dp"
         android:textAlignment="center"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/trainingTV3"
+    <Button
+        android:id="@+id/trainingButton3"
         android:layout_width="match_parent"
-        android:padding="6dp"
         android:layout_height="wrap_content"
         android:background="#CDCDCD"
-
+        android:padding="6dp"
         android:text="@string/training3"
         android:textAlignment="center"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/trainingTV4"
+    <Button
+        android:id="@+id/trainingButton4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="6dp"
         android:background="#CDCDCD"
+        android:padding="6dp"
         android:text="@string/training4"
         android:textAlignment="center"
         android:textSize="18sp" />
