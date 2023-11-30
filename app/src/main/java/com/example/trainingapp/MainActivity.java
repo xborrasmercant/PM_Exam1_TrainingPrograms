@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements TrainingList.OnFr
         Bundle args = new Bundle();
         args.putString("Training Title", trainingInfo[0]);
         args.putString("Training Desc", trainingInfo[1]);
+        args.putString("Training Photo", trainingInfo[2]);
         InfoFragment.setArguments(args);
 
         getSupportFragmentManager().beginTransaction()

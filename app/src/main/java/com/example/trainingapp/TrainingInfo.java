@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class TrainingInfo extends Fragment {
@@ -31,6 +32,25 @@ public class TrainingInfo extends Fragment {
             String trainingDesc = args.getString("Training Desc");
             TextView trainingDescTV = view.findViewById(R.id.trainingItem);
             trainingDescTV.setText(trainingDesc);
+
+            String trainingPhotoID = args.getString("Training Photo");
+            ImageView trainingPhotoIV = view.findViewById(R.id.trainingImage);
+
+            switch (trainingPhotoID) {
+                case "1":
+                    trainingPhotoIV.setImageResource(R.drawable.ticon1);
+                    break;
+                case "2":
+                    trainingPhotoIV.setImageResource(R.drawable.ticon2);
+                    break;
+                case "3":
+                    trainingPhotoIV.setImageResource(R.drawable.ticon3);
+                    break;
+                case "4":
+                    trainingPhotoIV.setImageResource(R.drawable.ticon4);
+                    break;
+
+            }
         }
 
         return view;

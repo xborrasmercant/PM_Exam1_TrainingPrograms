@@ -44,7 +44,7 @@ public class TrainingList extends Fragment {
             @Override
             public void onClick(View v) {
                 if (MyListener != null) {
-                    String[] trainingInfo = {"Training 1", "Pushups, Jumping Jacks"};
+                    String[] trainingInfo = {"Mobility Workout", "Pushups, Jumping Jacks", "1"};
                     MyListener.onFragmentInteraction(trainingInfo);
                 }
             }
@@ -55,7 +55,7 @@ public class TrainingList extends Fragment {
             @Override
             public void onClick(View v) {
                 if (MyListener != null) {
-                    String[] trainingInfo = {"Training 2", "Lateral Pull Down, French Press"};
+                    String[] trainingInfo = {"Chest and Back", "Lateral Pull Down, French Press", "2"};
                     MyListener.onFragmentInteraction(trainingInfo);
                 }
             }
@@ -66,7 +66,7 @@ public class TrainingList extends Fragment {
             @Override
             public void onClick(View v) {
                 if (MyListener != null) {
-                    String[] trainingInfo = {"Training 3", "Regular Squat, Bulgarian Squat"};
+                    String[] trainingInfo = {"Squat Workout", "Regular Squat, Bulgarian Squat",  "3"};
                     MyListener.onFragmentInteraction(trainingInfo);
                 }
             }
@@ -77,7 +77,7 @@ public class TrainingList extends Fragment {
             @Override
             public void onClick(View v) {
                 if (MyListener != null) {
-                    String[] trainingInfo = {"Training 4", "Regular Deadlift, Sumo Deadlift"};
+                    String[] trainingInfo = {"Deadlift Workout", "Regular Deadlift, Sumo Deadlift",  "4"};
                     MyListener.onFragmentInteraction(trainingInfo);
                 }
             }

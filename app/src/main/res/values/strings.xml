@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">TrainingApp</string>
-    <string name="training1">Training 1</string>
-    <string name="training2">Training 2</string>
-    <string name="training3">Training 3</string>
-    <string name="training4">Training 4</string>
-    <string name="trainingInfo">Push-ups</string>
+    <string name="training1">Mobility Workout</string>
+    <string name="training2">Chest and Back Workout</string>
+    <string name="training3">Squat Workout</string>
+    <string name="training4">Deadlift Workout</string>
+    <string name="trainingInfo">Training Description</string>
 
 </resources>
